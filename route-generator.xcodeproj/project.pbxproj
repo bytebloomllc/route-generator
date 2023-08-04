@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		875581F82A6ECBC4005CCF0C /* route_generatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875581F72A6ECBC4005CCF0C /* route_generatorApp.swift */; };
-		875581FA2A6ECBC4005CCF0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875581F92A6ECBC4005CCF0C /* ContentView.swift */; };
 		875581FC2A6ECBC5005CCF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875581FB2A6ECBC5005CCF0C /* Assets.xcassets */; };
 		875582002A6ECBC5005CCF0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875581FF2A6ECBC5005CCF0C /* Preview Assets.xcassets */; };
 		8755820A2A6ECBC6005CCF0C /* route_generatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875582092A6ECBC6005CCF0C /* route_generatorTests.swift */; };
 		875582142A6ECBC6005CCF0C /* route_generatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875582132A6ECBC6005CCF0C /* route_generatorUITests.swift */; };
 		875582162A6ECBC6005CCF0C /* route_generatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875582152A6ECBC6005CCF0C /* route_generatorUITestsLaunchTests.swift */; };
+		87779F2D2A71FD070081A424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87779F2C2A71FD070081A424 /* Main.storyboard */; };
+		87BD926D2A7307F700DE8307 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 87BD926C2A7307F700DE8307 /* MapboxMaps */; };
+		87BD92702A73083400DE8307 /* MapboxSearch in Frameworks */ = {isa = PBXBuildFile; productRef = 87BD926F2A73083400DE8307 /* MapboxSearch */; };
+		87BD92722A73083400DE8307 /* MapboxSearchUI in Frameworks */ = {isa = PBXBuildFile; productRef = 87BD92712A73083400DE8307 /* MapboxSearchUI */; };
+		87BD92752A73095500DE8307 /* MapboxCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 87BD92742A73095500DE8307 /* MapboxCommon */; };
+		87BD92782A730B4300DE8307 /* MapboxCoreNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 87BD92772A730B4300DE8307 /* MapboxCoreNavigation */; };
+		87BD927A2A730B4300DE8307 /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 87BD92792A730B4300DE8307 /* MapboxNavigation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +41,7 @@
 
 /* Begin PBXFileReference section */
 		875581F42A6ECBC4005CCF0C /* route-generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "route-generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		875581F72A6ECBC4005CCF0C /* route_generatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = route_generatorApp.swift; sourceTree = "<group>"; };
-		875581F92A6ECBC4005CCF0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		875581F72A6ECBC4005CCF0C /* route_generatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = route_generatorApp.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		875581FB2A6ECBC5005CCF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875581FD2A6ECBC5005CCF0C /* route_generator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = route_generator.entitlements; sourceTree = "<group>"; };
 		875581FF2A6ECBC5005CCF0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +50,7 @@
 		8755820F2A6ECBC6005CCF0C /* route-generatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "route-generatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		875582132A6ECBC6005CCF0C /* route_generatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = route_generatorUITests.swift; sourceTree = "<group>"; };
 		875582152A6ECBC6005CCF0C /* route_generatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = route_generatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87779F2C2A71FD070081A424 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87BD92752A73095500DE8307 /* MapboxCommon in Frameworks */,
+				87BD927A2A730B4300DE8307 /* MapboxNavigation in Frameworks */,
+				87BD926D2A7307F700DE8307 /* MapboxMaps in Frameworks */,
+				87BD92722A73083400DE8307 /* MapboxSearchUI in Frameworks */,
+				87BD92702A73083400DE8307 /* MapboxSearch in Frameworks */,
+				87BD92782A730B4300DE8307 /* MapboxCoreNavigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				875581F72A6ECBC4005CCF0C /* route_generatorApp.swift */,
-				875581F92A6ECBC4005CCF0C /* ContentView.swift */,
 				875581FB2A6ECBC5005CCF0C /* Assets.xcassets */,
+				87779F2C2A71FD070081A424 /* Main.storyboard */,
 				875581FD2A6ECBC5005CCF0C /* route_generator.entitlements */,
 				875581FE2A6ECBC5005CCF0C /* Preview Content */,
 			);
@@ -145,6 +157,14 @@
 			dependencies = (
 			);
 			name = "route-generator";
+			packageProductDependencies = (
+				87BD926C2A7307F700DE8307 /* MapboxMaps */,
+				87BD926F2A73083400DE8307 /* MapboxSearch */,
+				87BD92712A73083400DE8307 /* MapboxSearchUI */,
+				87BD92742A73095500DE8307 /* MapboxCommon */,
+				87BD92772A730B4300DE8307 /* MapboxCoreNavigation */,
+				87BD92792A730B4300DE8307 /* MapboxNavigation */,
+			);
 			productName = "route-generator";
 			productReference = 875581F42A6ECBC4005CCF0C /* route-generator.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +237,12 @@
 				Base,
 			);
 			mainGroup = 875581EB2A6ECBC4005CCF0C;
+			packageReferences = (
+				87BD926B2A7307F600DE8307 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+				87BD926E2A73083400DE8307 /* XCRemoteSwiftPackageReference "mapbox-search-ios" */,
+				87BD92732A73095500DE8307 /* XCRemoteSwiftPackageReference "mapbox-common-ios" */,
+				87BD92762A730B4300DE8307 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
+			);
 			productRefGroup = 875581F52A6ECBC4005CCF0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87779F2D2A71FD070081A424 /* Main.storyboard in Resources */,
 				875582002A6ECBC5005CCF0C /* Preview Assets.xcassets in Resources */,
 				875581FC2A6ECBC5005CCF0C /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				875581FA2A6ECBC4005CCF0C /* ContentView.swift in Sources */,
 				875581F82A6ECBC4005CCF0C /* route_generatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +445,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "route-generator/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your precise location is used to calculate potential routes, show your location on the map, and help improve the user experience.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +485,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "route-generator/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your precise location is used to calculate potential routes, show your location on the map, and help improve the user experience.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -612,6 +642,74 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		87BD926B2A7307F600DE8307 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		87BD926E2A73083400DE8307 /* XCRemoteSwiftPackageReference "mapbox-search-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-search-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		87BD92732A73095500DE8307 /* XCRemoteSwiftPackageReference "mapbox-common-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-common-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		87BD92762A730B4300DE8307 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87BD926C2A7307F700DE8307 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87BD926B2A7307F600DE8307 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		87BD926F2A73083400DE8307 /* MapboxSearch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87BD926E2A73083400DE8307 /* XCRemoteSwiftPackageReference "mapbox-search-ios" */;
+			productName = MapboxSearch;
+		};
+		87BD92712A73083400DE8307 /* MapboxSearchUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87BD926E2A73083400DE8307 /* XCRemoteSwiftPackageReference "mapbox-search-ios" */;
+			productName = MapboxSearchUI;
+		};
+		87BD92742A73095500DE8307 /* MapboxCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87BD92732A73095500DE8307 /* XCRemoteSwiftPackageReference "mapbox-common-ios" */;
+			productName = MapboxCommon;
+		};
+		87BD92772A730B4300DE8307 /* MapboxCoreNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87BD92762A730B4300DE8307 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxCoreNavigation;
+		};
+		87BD92792A730B4300DE8307 /* MapboxNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87BD92762A730B4300DE8307 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 875581EC2A6ECBC4005CCF0C /* Project object */;
 }
